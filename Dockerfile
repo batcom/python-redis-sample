@@ -6,6 +6,10 @@ COPY . /usr/src/app
 
 RUN pip install -r requirements.txt
 
-EXPOSE 3000
+EXPOSE 80
 
-CMD [ "python","application.py"]
+ADD ./start.sh /start.sh
+ADD ./crontab /etc/crontab
+ADD src/ /root/src/
+RUN chmod 755 /start.sh
+CMD ["/bin/bash", "/start.sh"]

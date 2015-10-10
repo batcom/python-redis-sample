@@ -1,3 +1,5 @@
+requests
+PyQuery
 nose
 coverage
 Flask
