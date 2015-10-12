@@ -1,5 +1,6 @@
 #!/bin/bash
-python /root/time.py
+pip install requests PyQuery
+/usr/local/bin/python /root/time.py
 read
 read
 read
