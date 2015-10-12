@@ -1,6 +1,5 @@
 #!/bin/bash
 python /root/time.py
-python test.py
 read
 read
 read
