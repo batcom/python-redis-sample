@@ -1,6 +1,5 @@
 #!/bin/bash
-cron
-/usr/bin/python application.py
+/usr/bin/python time.py
 read
 read
 read

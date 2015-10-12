@@ -4,4 +4,6 @@ RUN \
 	pip install requests PyQuery 
 
 EXPOSE 80
-CMD [ "python","time.py"]
+ADD ./start.sh /start.sh
+RUN chmod 755 /start.sh
+CMD ["/bin/bash", "/start.sh"]
