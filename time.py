@@ -70,8 +70,8 @@ def tasks():
     global timer
     timer = threading.Timer(2.0, tasks)
     test()
-    task_zhe800()
-	task_tuan800()
+    #task_zhe800()
+	#task_tuan800()
     timer.start()
 
 if __name__ == "__main__":
