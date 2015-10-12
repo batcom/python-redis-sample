@@ -1,6 +1,3 @@
 requests
 PyQuery
-nose
-coverage
-Flask
 redis
