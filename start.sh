@@ -1,5 +1,5 @@
 #!/bin/bash
-/usr/bin/python time.py
+python time.py
 read
 read
 read
